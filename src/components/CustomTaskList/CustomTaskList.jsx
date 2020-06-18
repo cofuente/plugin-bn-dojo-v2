@@ -10,9 +10,9 @@ const CustomTaskList = (props) => {
 
   return (
     <CustomTaskListComponentStyles>
-      This is a dismissible demo component
+      Hey there, ninja. Looks like you're about to have a great day at the dojo. <span role="img" aria-label="Keikogi">🥋</span>
       <i className="accented" onClick={props.dismissBar}>
-        close
+        k, thanks!
       </i>
     </CustomTaskListComponentStyles>
   );
