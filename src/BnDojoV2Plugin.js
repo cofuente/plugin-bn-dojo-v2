@@ -21,6 +21,7 @@ export default class BnDojoV2Plugin extends FlexPlugin {
    */
   init(flex, manager) {
     manager.strings.NoTasks = 'No katas, take a bow!'
+    flex.AgentDesktopView.defaultProps.showPanel2 = false
     this.registerReducers(manager);
 
     const options = { sortOrder: -1 };
