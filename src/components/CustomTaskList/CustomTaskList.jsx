@@ -10,7 +10,7 @@ const CustomTaskList = (props) => {
 
   return (
     <CustomTaskListComponentStyles>
-      Hey there, ninja. Looks like you're about to have a great day at the dojo. <span role="img" aria-label="Keikogi">🥋</span>
+      Hey there, agent. Looks like you're about to have a great day at the dojo. <span role="img" aria-label="Keikogi">🥋</span>
       <i className="accented" onClick={props.dismissBar}>
         k, thanks!
       </i>
