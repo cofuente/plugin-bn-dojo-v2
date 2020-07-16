@@ -20,6 +20,9 @@ export default class BnDojoV2Plugin extends FlexPlugin {
    * @param manager { import('@twilio/flex-ui').Manager }
    */
   init(flex, manager) {
+    manager.strings.NoTasks = 'No tasks, take a bow!'
+    flex.AgentDesktopView.defaultProps.showPanel2 = false
+    flex.MainHeader.defaultProps.logoUrl = 'https://i.imgur.com/ddA9usD.png'
     this.registerReducers(manager);
 
     const options = { sortOrder: -1 };
